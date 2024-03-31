@@ -1,14 +1,40 @@
+/* 
+
 *{
     color: orangered;
+} 
+
+div{
+    border: red solid;
 }
+
+*/
+
 
 
 div[class*="Section"] {
    height: 250px;
 }
 
+
 .Header{
+    display: flex;
     height: 375px;
+    justify-content: space-between;
+}
+
+.Header .RightContainer{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.Header .LeftContainer{
+    display: flex;
+}
+
+.RightContainer, .LeftContainer{
+    width: 50%;
 }
 
 .Header, .CopyrightFooter{
@@ -26,4 +52,5 @@ div[class*="Section"] {
 .CopyrightFooter{
     height: 100px;
 }
+
 
