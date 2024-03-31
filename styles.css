@@ -19,7 +19,7 @@ div[class*="Section"] {
 
 .Header{
     display: flex;
-    height: 375px;
+    height: 450px;
     justify-content: space-between;
 }
 
@@ -27,10 +27,17 @@ div[class*="Section"] {
     display: flex;
     justify-content: center;
     gap: 25px;
+    font-size: 18px;
+    color: #E5E7EB;
+
 }
 
 .Header .LeftContainer{
     display: flex;
+    justify-content: space-around;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .RightContainer, .LeftContainer{
