@@ -1,2 +1,2 @@
-# LandingPage-TheOdinProject
-Landing page created in HTML + CSS for 'The Odin Project'
+# Project: Landing Page
+[The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page)
