@@ -1,0 +1,29 @@
+*{
+    color: orangered;
+}
+
+
+div[class*="Section"] {
+   height: 250px;
+}
+
+.Header{
+    height: 375px;
+}
+
+.Header, .CopyrightFooter{
+    background-color: #1F2937;
+}
+
+.InformationSection{
+    background-color: #FFFFFF;
+}
+
+.QuoteSection{
+    background-color: #E5E7EB;
+}
+
+.CopyrightFooter{
+    height: 100px;
+}
+
