@@ -1,63 +1,55 @@
-/* 
-
-*{
-    color: orangered;
-} 
-
-div{
-    border: red solid;
+div {
+  border: red solid;
 }
-
-*/
-
-
 
 div[class*="Section"] {
-   height: 250px;
+  height: 250px;
 }
 
-
-.Header{
-    display: flex;
-    height: 450px;
-    justify-content: space-between;
+.Header {
+  display: flex;
+  height: 450px;
+  justify-content: space-between;
 }
 
-.Header .RightContainer{
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    font-size: 18px;
-    color: #E5E7EB;
-
+.Header .RightContainer {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
-.Header .LeftContainer{
-    display: flex;
-    justify-content: space-around;
-    color: #F9FAF8;
-    font-weight: bold;
-    font-size: 24px;
+.Header .LeftContainer {
+  display: flex;
+  /*justify-content: space-around;*/
+  color: #f9faf8;
+  font-weight: 900;
+  font-size: 24px;
 }
 
-.RightContainer, .LeftContainer{
-    width: 50%;
+.HeaderLogo {
+  margin-left: 25%;
 }
 
-.Header, .CopyrightFooter{
-    background-color: #1F2937;
+.RightContainer,
+.LeftContainer {
+  width: 50%;
 }
 
-.InformationSection{
-    background-color: #FFFFFF;
+.Header,
+.CopyrightFooter {
+  background-color: #1f2937;
 }
 
-.QuoteSection{
-    background-color: #E5E7EB;
+.InformationSection {
+  background-color: #ffffff;
 }
 
-.CopyrightFooter{
-    height: 100px;
+.QuoteSection {
+  background-color: #e5e7eb;
 }
 
-
+.CopyrightFooter {
+  height: 100px;
+}
