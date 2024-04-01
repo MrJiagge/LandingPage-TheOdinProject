@@ -1,6 +1,8 @@
+/*
 div {
   border: red solid;
 }
+*/
 
 div[class*="Section"] {
   height: 250px;
@@ -8,7 +10,7 @@ div[class*="Section"] {
 
 .Header {
   display: flex;
-  height: 450px;
+  height: 600px;
   justify-content: space-between;
 }
 
@@ -23,13 +25,55 @@ div[class*="Section"] {
 .Header .LeftContainer {
   display: flex;
   /*justify-content: space-around;*/
+  flex-direction: column;
   color: #f9faf8;
   font-weight: 900;
   font-size: 24px;
 }
 
 .HeaderLogo {
-  margin-left: 25%;
+  margin-left: 50%;
+}
+
+.Text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50%;
+  margin-top: 10%;
+}
+
+.MainText {
+  font-size: 52px;
+  font-weight: 900;
+  align-self: flex-start;
+}
+
+.MainText,
+.SecondaryText {
+  margin: 0;
+  padding: 0;
+}
+
+.SecondaryText {
+  align-self: flex-end;
+  font-size: 23px;
+  color: #e5e7eb;
+  font-weight: 400;
+}
+
+.SignUpButton {
+  align-self: flex-start;
+  margin-top: 2%;
+  background-color: #3882f6;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 7.5px;
+  width: 25%;
+  height: 40px;
+  border: none;
 }
 
 .RightContainer,
