@@ -8,6 +8,10 @@ div[class*="Section"] {
   height: 250px;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .Header {
   display: flex;
   height: 600px;
