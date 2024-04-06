@@ -145,6 +145,21 @@ button:hover {
   height: 100%;
 }
 
+.SubtextContainer{
+  display: flex;
+  width: 100%;
+  gap: 75px;
+}
+
+.SubtextContainer .Container{
+  width: 21%;
+  display: flex;
+  justify-self: center;
+  color: #1F2937;
+  font-size: 22px;
+  font-weight: 300;
+}
+
 .QuoteSection {
   background-color: #e5e7eb;
 }
